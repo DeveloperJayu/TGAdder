@@ -1,4 +1,4 @@
-##Note
+## • Note
 
 * This is a edited version of https://github.com/termuxprofessor/TeleGram-Scraper-Adder
 * I have added error handlers and fixed colours in adder.py
