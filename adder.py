@@ -119,7 +119,7 @@ for user in users:
         time.sleep(60)
     try:
         current = user['id']
-        print(ye+"Adding {}".format(user['id']))
+        print(cy+"Adding {}".format(user['id']))
         if mode == 1:
             if user['username'] == "":
                 continue
