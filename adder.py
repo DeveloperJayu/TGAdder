@@ -135,7 +135,7 @@ for user in users:
             continue
         else:
             client(InviteToChannelRequest(target_group_entity, [user_to_add]))
-            print(ye+"Waiting for 60-180 Seconds...")
+            print(ye+"Waiting for 10 Seconds...")
             time.sleep(10)
     except PeerFloodError:
         print(re+"Getting Flood Error from telegram. Script is stopping now. Please try again after some time.")
